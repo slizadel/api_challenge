@@ -11,8 +11,6 @@ pyrax.set_credential_file(credentials_file)
 
 cloudservers = pyrax.cloudservers
 
-# Probably shouldn't hardcode these things, but oh well.
-# Building Ubuntu Servers
 image_id = "8a3a9f96-b997-46fd-b7a8-a9e740796ffd"
 flavor_id = 2
 
